@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ShouldBuyCar {
+class CarBuyer {
   
   func shouldBuy(car: Car) -> Bool {
     if let type = car.type, type.lowercased() == "hatchback" {
